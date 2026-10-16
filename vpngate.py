@@ -41,7 +41,7 @@ VPNGATE_MIRROR = os.environ.get(
     "VPNGATE_MIRROR",
     "https://raw.githubusercontent.com/fdciabdul/Vpngate-Scraper-API/main/json/data.json",
 )
-WORKER_CHECK_URL = os.environ.get("CHECK_WORKER", "https://你的域名/check?sstp=vpn:vpn@")
+WORKER_CHECK_URL = os.environ.get("CHECK_WORKER", "https://ch.zy234.cc.cd/check?sstp=vpn:vpn@")
 CONCURRENCY = max(1, int(os.environ.get("CHECK_CONCURRENCY", "32")))
 CHECK_TIMEOUT = float(os.environ.get("CHECK_TIMEOUT", "90"))
 MAX_CHECK_NODES = int(os.environ.get("MAX_CHECK_NODES", "0"))
@@ -85,9 +85,22 @@ EDGE_HOSTS = [
     h.strip()
     for h in os.environ.get(
         "EDGE_HOSTS",
-        "saas.sin.fan:443,cdn.204910.best:443,www.mfyx.cn:443,p.etime.vip:443,cdn.ctn32.us.kg:443,cf.877774.xyz:443,spring.io:443,"
-        "cf.nyanya.moe:443,www.sloomb.com:443,op.chinwa.eu.cc:443,www.leics.police.uk:443,securecircle.com:443,www.shopify.com:443,"
-        "www.carousell.sg:443,www.dbs.com.sg:443,openai.com:443,linear.app:443,www.bilibili.com:443,uspto.gov:443,www.vmware.com:443",
+        "cf.itv888.cn:443, cf.xreak.top:443, fn.130519.xyz:443, p.etime.vip:443, cf.1o.ee:443, saas.sin.fan:443, www.wuduanyun.com:443, api.gzcrtw.com:443, "
+        "cf.468123.xyz:443, cf-cname.xingpingcn.top:443, bbs.alipansou.com:443, cdn.ctn32.us.kg:443, vps.cheng2001.top:443, cdn.7zz.cn:443, eii.at:443, "
+        "ikankeji.com:443, ali.nonull.pp.ua:443, tt.78607323.xyz:443, mfa.gov.ua:443, cf.3666888.xyz:443, saas.072159.xyz:443, 224322.xyz:443, op.chinwa.eu.cc:443, "
+        "egov.uscis.gov:443, cdn.667891.xyz:443, www.broadcom.com:443, www.zendesk.com:443, kniu.cc:443, thebeat.gehealthcare.com:443, www.mlkj888.com:443, "
+        "cf2.996616.xyz:443, staticdelivery.nexusmods.com:443, www.gov.il:443, hzytjy.cn:443, jobsdb.com:443, cf.yj250.bond:443, www.sage.com:443, "
+        "www.udacity.com:443, cloudflare.idc.rocks:443, wppaunz.com:443, www.leics.police.uk:443, academy.7shifts.com:443, www.dbs.com.sg:443, www.bis.gov:443, "
+        "cdn.cnno.de:443, m.iyf.tv:443, auto.dolby.dpdns.org:443, kickstarter.com:443, aakashgupta.substack.com:443, versantstore.pearson.com:443, www.5h.com:443, "
+        "www.mastervolt.com:443, openai.com:443, funko.com:443, www.vastnovel.com:443, www.shopify.com:443, www.jp.pima.gov:443, lt.1930812.xyz:443, spring.io:443, "
+        "cf.254301.xyz:443, www.akasantech.com:443, test.509666.xyz:443, jellyfin.roddy.eu.cc:443, www.sofi.com:443, cdn.204910.best:443, dnew.cc:443, "
+        "www.blibli.com:443, serviceshub.samsclub.com:443, linear.app:443, neko.cloudd.eu.org:443, cnllm.com:443, www.xiaoshuofen.com:443, markmonitor.com:443, "
+        "www.crazygames.fr:443, d.lma.de5.net:443, www.bangbenjiaju.com:443, www.vmware.com:443, idc.urkeji.com:443, cdns.doon.eu.org:443, www.dentoncounty.gov:443, "
+        "www.wto.org:443, ex.warspite.dpdns.org:443, securecircle.com:443, store.ubi.com:443, cf.qq.ms:443, neko.cloudflaree.eu.org:443, www.giannidelprete.it:443, "
+        "www.carousell.sg:443, cdn.jwcmdr.top:443, www.mc.js.cool:443, cloudflare-ip.mofashi.ltd:443, uspto.gov:443, guide.for.edu.sg:443, www.deepl.com:443, "
+        "cfip-ct.stoeaves.us.ci:443, www.dg22.top:443, stores.staples.com:443, www.5199dy.com:443, 53.fs1.hubspotusercontent-na1.net:443, dongbanghong.com:443, "
+        "c-power.com.cn:443, cf.777791.xyz:443, prizepicks.com:443, img.css.sd:443, www.mfyx.cn:443, baota.us.kg:443, cfplus.255520.xyz:443, www.sloomb.com:443, "
+        "coreweave.com:443, cdn.555586.xyz:443, login.rockwellautomation.com:443",
     ).split(",")
     if h.strip()
 ]
@@ -95,7 +108,7 @@ EDGE_HOSTS = [
 # 优选 API 地址配置 (支持逗号分隔多个，可配置在 GitHub Action Secret / Env 中)
 OPTIMAL_API = os.environ.get("OPTIMAL_API", "https://cf.090227.xyz/ct?ips=6&port=443")
 
-NODES_URL = os.environ.get("NODES_URL", "https://YOUR_GITHUB_USERNAME.github.io/gate/nodes.txt")
+NODES_URL = os.environ.get("NODES_URL", "https://zgs360.github.io/z_gate/nodes.txt")
 
 # ---------------------------------------------------------------------------
 # 日志
