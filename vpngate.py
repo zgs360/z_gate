@@ -86,25 +86,18 @@ EDGE_HOSTS = [
     h.strip()
     for h in os.environ.get(
         "EDGE_HOSTS",
-        "hzytjy.cn:443,"
-        "cdn.7zz.cn:443,"
-        "api.gzcrtw.com:443,"
-        "www.mfyx.cn:443,"
-        "mfa.gov.ua:443,"
-        "markmonitor.com:443,"
-        "openai.com:443,"
-        "wppaunz.com:443,"
-        "prizepicks.com:443,"
-        "cloudflare.idc.rocks:443,"
-        "cf.777791.xyz:443,"
-        "www.elysee.fr:443,"
-        "go1.dematic.com:443,"
-        "www.crazygames.fr:443,"
-        "liziye.pages.dev:443,"
-        "journeys.com:443,"
-        "www.wto.org:443,"
-        "hubspot.com:443,"
-        "smapi.xystem138.com:443",
+        "www.5199dy.com:443,saas.072159.xyz:443,tt.78607323.xyz:443,baota.us.kg:443,cf.itv888.cn:443,"
+        "www.broadcom.com:443,funko.com:443,dnew.cc:443,224322.xyz:443,www.vmware.com:443,"
+        "www.dbs.com.sg:443,cf.877774.xyz:443,spring.io:443,coreweave.com:443,www.blibli.com:443,"
+        "www.dg22.top:443,www.wto.org:443,constitution.congress.gov:443,stores.staples.com:443,"
+        "wppaunz.com:443,ex.warspite.dpdns.org:443,www.deepl.com:443,versantstore.pearson.com:443,"
+        "linear.app:443,securecircle.com:443,cfplus.255520.xyz:443,markmonitor.com:443,prizepicks.com:443,"
+        "egov.uscis.gov:443,www.bis.gov:443,www.akasantech.com:443,www.giannidelprete.it:443,cdn.ddeed.de:443,"
+        "guide.for.edu.sg:443,53.fs1.hubspotusercontent-na1.net:443,dongbanghong.com:443,www.carousell.sg:443,"
+        "login.rockwellautomation.com:443,www.leics.police.uk:443,www.gov.il:443,uspto.gov:443,www.galgamex.net:443,"
+        "www.crazygames.fr:443,test.509666.xyz:443,cf.nyanya.moe:443,cfip-ct.stoeaves.us.ci:443,www.mc.js.cool:443,"
+        "academy.7shifts.com:443,cf.254301.xyz:443,www.vastnovel.com:443,www.shopify.com:443,www.zendesk.com:443,"
+        "cf.3666888.xyz:443,www.jp.pima.gov:443",
     ).split(",")
     if h.strip()
 ]
