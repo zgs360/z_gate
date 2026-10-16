@@ -74,7 +74,8 @@ edgetunnel 后台「自定义优选IP」框填 https://…/nodes.txt
 | :--- | :--- | :--- | :--- |
 | .github/workflows/check.yml | env 里的 `CHECK_WORKER` | 你的检测 Worker 域名，形如 `https://xxx.workers.dev/check?sstp=vpn:vpn@` | 检测统一走你自己的 Worker |
 | vpngate.py | `NODES_URL` | 把里面写死的固定地址换成 `你的用户名/仓库名` | 自动更新时用到的固定地址 |
-
+| vpngate.py                  | WORKER_CHECK_URL      | 你的检测 Worker 域名，形如 `https://xxx.workers.dev/check?sstp=vpn:vpn@` |                  |
+| :-------------------------- | :-------------------- | :-------------------------------------------------------------- | :--------------- |
 > **注意**：`vpngate.py` 中**不需要**配置 `EDT_UUID` 和 `EDT_DOMAIN`。你之前看到的这两个变量是旧版遗留，现已删除。edgetunnel 后台会自己处理 UUID 和域名。
 
 ### 第 5 步：开启 GitHub Pages 与 Actions
