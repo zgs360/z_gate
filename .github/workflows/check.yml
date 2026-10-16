@@ -36,6 +36,13 @@ jobs:
           CHECK_CONCURRENCY: "32"
           CHECK_TIMEOUT: "90"
 
+      # ========== 在这里新增下面这一步 ==========
+      - name: Generate Clash SSTP config (optional)
+        run: |
+          pip install pyyaml
+          python gen_clash.py
+      # ========================================
+      
       - name: Ensure GitHub Pages is enabled (one-time auto setup)
         run: |
           code=$(curl -s -o /dev/null -w '%{http_code}' \
