@@ -86,15 +86,13 @@ EDGE_HOSTS = [
     h.strip()
     for h in os.environ.get(
         "EDGE_HOSTS",
-        "eii.at:443,ys2046.cv:443,cf-cname.xingpingcn.top:443,ali.nonull.pp.ua:443,www.5199dy.com:443,securecircle.com:443,"
-        "baota.us.kg:443,www.gov.il:443,api.gzcrtw.com:443,dongbanghong.com:443,www.shopify.com:443,store.ubi.com:443,"
-        "linear.app:443,www.galgamex.net:443,cf.itv888.cn:443,coreweave.com:443,www.wto.org:443,cdn.667891.xyz:443,"
-        "kickstarter.com:443,thebeat.gehealthcare.com:443,cloudflare.idc.rocks:443,tt.78607323.xyz:443,c-power.com.cn:443,"
-        "www.carousell.sg:443,spring.io:443,serviceshub.samsclub.com:443,markmonitor.com:443,www.5h.com:443,"
-        "op.chinwa.eu.cc:443,www.broadcom.com:443,cf.254301.xyz:443,www.leics.police.uk:443,prizepicks.com:443,"
-        "www.dbs.com.sg:443,p.etime.vip:443,www.dg22.top:443,versantstore.pearson.com:443,vps.cheng2001.top:443,"
-        "www.akasantech.com:443,academy.7shifts.com:443,m.iyf.tv:443,cdn.cnno.de:443,stores.staples.com:443,www.sage.com:443,"
-        "login.rockwellautomation.com:443,wppaunz.com:443",
+       "ns.cloudflare.com:443,ns7.cloudflare.com:443,ns5.cloudflare.com:443,www.wto.org:443,africa.visa.com:443,"
+      "qa.visamiddleeast.com:443,www.visa.com.sg:443,abuse.cloudflare.com:443,pages.cloudflare.com:443,"
+      "portal.cloudflarepartners.com:443,radar.cloudflare.com:443,workers.cloudflare.com:443,"
+      "community.cloudflare.com:443,time.is:443,visa.ca:443,icook.hk:443,try.cloudflare.com:443"
+      "www.visaeurope.at:443,caribbean.visa.com:443,developers.cloudflare.com:443,store.epicgames.com:443,"
+      "www.visa.com.tw:443,visamiddleeast.com:443,sso.cloudflare.dev:443,ns4.cloudflare.com:443,"
+      "icook.tw:443,visa.co.id:443,visa.co.ke:443,visa.com.ai:443,visa.com.tw:443,visa.co.in:443",
     ).split(",")
     if h.strip()
 ]
