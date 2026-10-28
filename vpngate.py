@@ -86,15 +86,15 @@ EDGE_HOSTS = [
     h.strip()
     for h in os.environ.get(
         "EDGE_HOSTS",
-"cf.nyanya.moe:443,cdn.667891.xyz:443,www.visa.cn:443,cdn.7zz.cn:443,cf.3666888.xyz:443,224322.xyz:443,fn.130519.xyz:443,api.gzcrtw.com:443,"
-"cf.877774.xyz:443,cf.1o.ee:443,p.etime.vip:443,cf.itv888.cn:443,deepin.org:443,cdn.204910.best:443,tt.78607323.xyz:443,nexusmods.com:443,"
-"www.broadcom.com:443,cf.xreak.top:443,cf-cname.xingpingcn.top:443,bbs.alipansou.com:443,glassdoor.com:443,ns5.cloudflare.com:443,ikankeji.com:443,"
-"china.mfa.gov.ua:443,onetrust.com:443,www.emerson.com:443,www.jimdo.com:443,ns7.cloudflare.com:443,ns6.cloudflare.com:443,www.transunion.hk:443,"
-"www.shopify.com:443,ns.cloudflare.com:443,www.akasantech.com:443,www.sage.com:443,jobsdb.com:443,academy.7shifts.com:443,wppaunz.com:443,"
-"www.leics.police.uk:443,auctions.ihg.com.cn:443,eii.at:443,bluehost.com:443,m.iyf.tv:443,www.blibli.com:443,www.bis.gov:443,www.udacity.com:443,"
-"mfa.gov.ua:443,login.rockwellautomation.com:443,stores.staples.com:443,www.mastervolt.com:443,53.fs1.hubspotusercontent-na1.net:443,"
-"markmonitor.com:443,funko.com:443,serviceshub.samsclub.com:443,www.jp.pima.gov:443,egov.uscis.gov:443,www.giannidelprete.it:443,polestar.com:443,"
-"ns3.cloudflare.com:443,ns4.cloudflare.com:443,kickstarter.com:443",
+"cf.3666888.xyz:443,api.gzcrtw.com:443,cdn.204910.best:443,www.wuduanyun.com:443,cf.itv888.cn:443,"
+"cloudflare.idc.rocks:443,eii.at:443,auto.dolby.dpdns.org:443,saas.sin.fan:443,cf.877774.xyz:443,"
+"cdn.667891.xyz:443,jellyfin.roddy.eu.cc:443,fn.130519.xyz:443,224322.xyz:443,ikankeji.com:443,"
+"constitution.congress.gov:443,cdn.7zz.cn:443,saas.072159.xyz:443,www.bis.gov:443,egov.uscis.gov:443,"
+"www.vmware.com:443,vps.cheng2001.top:443,www.akasantech.com:443,bbs.alipansou.com:443,"
+"www.giannidelprete.it:443,www.broadcom.com:443,funko.com:443,www.udacity.com:443,prizepicks.com:443,"
+"wppaunz.com:443,p.etime.vip:443,dongbanghong.com:443,ali.nonull.pp.ua:443,53.fs1.hubspotusercontent-na1.net:443,"
+"www.leics.police.uk:443,staticdelivery.nexusmods.com:443,linear.app:443,www.mfyx.cn:443,"
+"store.ubi.com:443,mfa.gov.ua:443,www.gov.il:443,versantstore.pearson.com:443,cdn.ctn32.us.kg:443,www.sofi.com:443",
     ).split(",")
     if h.strip()
 ]
